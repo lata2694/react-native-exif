@@ -56,6 +56,7 @@ public class Exif extends ReactContextBaseJavaModule  {
         ExifInterface.TAG_INTEROPERABILITY_INDEX,
         ExifInterface.TAG_MAKER_NOTE,
         ExifInterface.TAG_BITS_PER_SAMPLE,
+        ExifInterface.TAG_SHUTTER_SPEED_VALUE,
     };
 
     public Exif(ReactApplicationContext reactContext) {
